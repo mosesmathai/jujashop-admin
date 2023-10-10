@@ -110,7 +110,7 @@ export default function Orders() {
                 </div>
                 <div>
                   <div>
-                    <b>items</b>
+                    <b>Items&#58;</b>
                   </div>
                   <div>
                     {order.line_items.map(l => (
