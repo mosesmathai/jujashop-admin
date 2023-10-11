@@ -85,7 +85,10 @@ export default function Inquiries() {
                   <b>Name&#58;</b> {message.fullName}
                 </div>
                 <div>
-                  <b>Contact&#58;</b> 0{message.phone} &#45; {message.communication}
+                  <b>Contact&#58;</b> 0{message.phone} 
+                </div>
+                <div>
+                  <b>P.M.O.C&#58;</b> {message.communication}
                 </div>
                 <div>
                   <b>Message from Client&#58;</b>
