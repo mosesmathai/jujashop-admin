@@ -103,7 +103,10 @@ export default function Orders() {
                   </div>
                 </div>
                 <div>
-                  <b>Contact&#58;</b> 0{order.phone} &#45; {order.communication}
+                  <b>Contact&#58;</b> 0{order.phone}
+                </div>
+                <div>
+                  <b>P.M.O.C&#58;</b> {order.communication}
                 </div>
                 <div>
                   <b>Delivery Point&#58;</b> {order.location} 
