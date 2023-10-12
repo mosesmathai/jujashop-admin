@@ -43,12 +43,20 @@
   @apply bg-black px-2 py-2 rounded-md text-white border 
 }
 
-input, textarea, select {
+input, select {
   @apply border-2 border-gray-400 px-1 rounded-md outline-none mb-2 w-full
 }
 
-input:focus, textarea:focus, select:focus {
+input:focus, select:focus {
   @apply border-black outline-none
+}
+
+textarea {
+  @apply border-2 border-gray-400 px-1 h-40 rounded-md outline-none mb-2 w-full
+}
+
+textarea:focus {
+  @apply border-black outline-none 
 }
 
 label.basic {
